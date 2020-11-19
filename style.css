@@ -1,0 +1,150 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    margin: 0 auto;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: -20px;
+    min-width: 1300px;
+}
+.ddd{
+    margin: 0 auto;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    background-color:#955251;
+}
+.headerf{
+    margin: 0px 20px;
+    padding-top: 20px;
+    color: bl;
+}
+aside{
+    width: 25%;
+    height: 100%;
+    right:0;
+    top:0;
+    background-color: #fff;
+    position: absolute;
+    opacity: 0.6;
+}
+.icon{
+    width: 25%;
+    height: 20%;
+    right:0;
+    top:0;
+    z-index: 1;
+    position: absolute;
+}
+.cons{
+    width: 25%;
+    height: 50%;
+    right:0;
+    top:130px;
+    z-index: 1;
+    position: absolute;
+    text-align: center;
+    line-height: 70px;;
+}
+.icon i{
+    margin: 30px;
+    font-size: 40px;
+    background-color: white;
+    float: right;
+    color: white;
+    padding: 5px 5px;
+    border: 4px solid black;
+    border-radius: 10px;
+    display: block;
+}
+.cons a{
+    text-decoration: none;
+    color:black;
+    font-size:25px;
+}
+.outLog{
+    margin:auto;
+    width: 45%;
+    height: 550px;
+    background-color: white;
+    padding-top: 30px;
+    max-width: 650px;
+
+}
+.log{
+    margin:auto;
+    padding-top: 20px;
+    height: 490px;
+    width: 60%;
+    border: 0px solid black;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #5F5F5F;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+.log h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+    color:blue;
+}
+.log h2{
+    font-size: 20px;
+    margin-bottom: 30px;
+    color:rgb(151, 151, 151);
+}
+form{
+    height: 100%;
+}
+.log form input{
+    width: 90%;
+    height: 9%;
+    margin: 15px 0 15px 0;
+    border: 0 solid blue;
+    border-radius: 20px;
+}
+input:focus{
+    outline: none;
+}
+input[type="text"]:focus,input[type="password"]:focus{
+    box-shadow: 0 0 10px #5F5F5F;
+}
+input[type="text"],input[type="password"]{
+    padding-left: 50px;
+    color:black;
+    box-shadow: 2px 2px 7px #777777 inset;
+}
+#p{
+    position: absolute;
+    font-size: 20px;
+    top:34%;
+    left: 10%;
+}
+#l{
+    position: absolute;
+    font-size: 20px;
+    top:48.5%;
+    left: 10%;
+}
+input[type="submit"]{
+    background-color: blue;
+    color:black;
+    transition: box-shadow .3s ease-in-out;
+}
+input[type="submit"]:hover{
+    cursor: pointer;
+    box-shadow: 0 0 10px red;
+}
+p{
+    font-size: 20px;
+    margin-top: 20px;
+}
+p a{
+    text-decoration: none;
+}
